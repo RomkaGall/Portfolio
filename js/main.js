@@ -1,7 +1,7 @@
-$(document).ready(function() {
-	console.log("Скрипты подъехали")
+$(document).ready(function () {
+  console.log("Скрипты подъехали")
 
-	$.getScript("https://cdnjs.cloudflare.com/ajax/libs/particles.js/2.0.0/particles.min.js", function(){
+  $.getScript("https://cdnjs.cloudflare.com/ajax/libs/particles.js/2.0.0/particles.min.js", function () {
     particlesJS('particles-js',
       {
         "particles": {
@@ -120,18 +120,28 @@ $(document).ready(function() {
       }
     );
 
-});
+  });
+
+  $(function () {
+    $('.skills__level').each(function (index) {
+      var round = $(this).find('.round')
+
+      round.addClass('wow fadeIn')
+
+      round.each(function (indexRound) {
+        var delay = indexRound / 3 + 's';
+        console.log(delay)
+        $(this).attr('data-wow-delay', delay)
+      })
+    })
+  })
 
 
 
-
-
-
-
-	//wow
-	$(function () {
-		new WOW().init();
-	})
+  //wow
+  $(function () {
+    new WOW().init();
+  })
 });
 
 
