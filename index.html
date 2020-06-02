@@ -3,6 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Portfolio</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 	<link rel="stylesheet" href="css/main.min.css">
 	<meta name="viewport" content="width=device-width">
 	<meta name='freelancehunt' content='a8c8d71b45d635f' />
@@ -40,100 +41,92 @@
 						</div> -->
 		
 		
-						<div class="works__item wow fadeIn">
-							<a href="https://bcaa.ua/" target="_blank">
-								<span class="works__title">BCAA</span>
-								<span class="works__subtitle">Online store of sports nutrition</span>
-							</a>
-						</div>
-						<div class="works__item wow fadeIn">
-							<a href="https://dolcedonna.com.ua/" target="_blank">
-								<span class="works__title">DolceDonna</span>
-								<span class="works__subtitle">Designer clothes</span>
-							</a>
+						<div class="works__item wow fadeIn" data-toggle="modal" data-target="#selleriseModal">
+							<span class="works__title">Sellerise</span>
+							<span class="works__subtitle">Services for Amazon sellers</span>
 						</div>
 		
-						<div class="works__item wow fadeIn">
-							<a href="https://scrapbooking.weblife.ua/" target="_blank">
-								<span class="works__title">Scrapbooking</span>
-								<span class="works__subtitle">Online store of things for handmade</span>
-							</a>
-						</div>
+						<a  href="https://bcaa.ua/" target="_blank" class="works__item wow fadeIn">
+							<span class="works__title">BCAA</span>
+							<span class="works__subtitle">Online store of sports nutrition</span>
+						</a>
 		
-						<!-- <div class="works__item wow fadeIn">
-							<a href="https://1904.wibe.pro" target="_blank">
-								<span class="works__title">Elqus</span>
-								<span class="works__subtitle">Corporate website</span>
-							</a>
-						</div> -->
+						<a href="https://tvorcha.com/" class="works__item wow fadeIn" target="_blank">
+							<span class="works__title">Tvorcha</span>
+							<span class="works__subtitle">Online store of things for handmade</span>
+						</a>
 		
-						<div class="works__item wow fadeIn">
-							<a href="https://alexhotel.com.ua" target="_blank">
-								<span class="works__title">Alex Hotel</span>
-								<span class="works__subtitle">Hotel in Odessa</span>
-							</a>
-						</div>
+						<a href="https://dolcedonna.com.ua/" class="works__item wow fadeIn" target="_blank">
+							<span class="works__title">DolceDonna</span>
+							<span class="works__subtitle">Designer clothes</span>
+						</a>
 		
-						<div class="works__item wow fadeIn">
-							<a href="https://trendsetonline.com/" target="_blank">
-								<span class="works__title">Trendset</span>
-								<span class="works__subtitle">The Online Shop of sunglasses</span>
-							</a>
-						</div>
-		
-						<div class="works__item wow fadeIn">
-							<a href="https://romkagall.github.io/Perrino/" target="_blank">
-								<span class="works__title">Perrino</span>
-								<span class="works__subtitle">The online store of furniture</span>
-							</a>
-						</div>
-		
-						<div class="works__item wow fadeIn">
-							<a href="https://romkagall.github.io/momo/" target="_blank">
-								<span class="works__title">MOMO</span>
-								<span class="works__subtitle">The animal clinic</span>
-							</a>
-						</div>
-		
-						<div class="works__item wow fadeIn">
-							<a href="https://romkagall.github.io/Wolf/" target="_blank">
-								<span class="works__title">Wolf</span>
-								<span class="works__subtitle"></span>
-							</a>
-						</div>
-		
-						<div class="works__item wow fadeIn ">
-							<a href="https://romkagall.github.io/oknaluks/" target="_blank">
-								<span class="works__title">Lux Windows</span>
-								<span class="works__subtitle">Production of windows</span>
-							</a>
-						</div>
-		
-						<div class="works__item wow fadeIn">
-							<a href="https://romkagall.github.io/Yota/" target="_blank">
-								<span class="works__title">Yota Systems</span>
-								<span class="works__subtitle">The 4G-signal booster's</span>
-							</a>
-						</div>
-		
-						<div class="works__item wow fadeIn">
-							<a href="https://romkagall.github.io/AppleHelp/" target="_blank">
-								<span class="works__title">AppleHelp</span>
-								<span class="works__subtitle">The Apple technics repair</span>
-							</a>
-						</div>
-		
-						<div class="works__item wow fadeIn">
-							<a href="https://romkagall.github.io/dekpd/" target="_blank">
-								<span class="works__title">
-									The fire brigade</span>
-								<span class="works__subtitle">The drafting of the fire safety declaration </span>
-							</a>
-						</div>
+						<a href="https://alexhotel.com.ua" class="works__item wow fadeIn" target="_blank">
+							<span class="works__title">Alex Hotel</span>
+							<span class="works__subtitle">Hotel in Odessa</span>
+						</a>
+						<a href="https://trendsetonline.com/" class="works__item wow fadeIn" target="_blank">
+							<span class="works__title">Trendset</span>
+							<span class="works__subtitle">The Online Shop of sunglasses</span>
+						</a>
+						<a href="https://romkagall.github.io/Perrino/" class="works__item wow fadeIn" target="_blank">
+							<span class="works__title">Perrino</span>
+							<span class="works__subtitle">The online store of furniture</span>
+						</a>
+						<a href="https://romkagall.github.io/momo/" class="works__item wow fadeIn" target="_blank">
+							<span class="works__title">MOMO</span>
+							<span class="works__subtitle">The animal clinic</span>
+						</a>
+						<a href="https://romkagall.github.io/Wolf/" class="works__item wow fadeIn" target="_blank">
+							<span class="works__title">Wolf</span>
+							<span class="works__subtitle"></span>
+						</a>
+						<a href="https://romkagall.github.io/oknaluks/" class="works__item wow fadeIn " target="_blank">
+							<span class="works__title">Lux Windows</span>
+							<span class="works__subtitle">Production of windows</span>
+						</a>
+						<a href="https://romkagall.github.io/Yota/" class="works__item wow fadeIn" target="_blank">
+							<span class="works__title">Yota Systems</span>
+							<span class="works__subtitle">The 4G-signal booster's</span>
+						</a>
+						<a href="https://romkagall.github.io/AppleHelp/" target="_blank" class="works__item wow fadeIn">
+							<span class="works__title">AppleHelp</span>
+							<span class="works__subtitle">The Apple technics repair</span>
+						</a>
+						<a href="https://romkagall.github.io/dekpd/" target="_blank" class="works__item wow fadeIn">
+							<span class="works__title">
+								The fire brigade</span>
+							<span class="works__subtitle">The drafting of the fire safety declaration </span>
+						</a>
 					</div>
 				</div>
 			</div>
 		</div>
+		
+		<!-- Modal -->
+		<div class="modal fade" id="selleriseModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+			<div class="modal-dialog">
+			  <div class="modal-content">
+				<div class="modal-header">
+				  <h5 class="modal-title" id="exampleModalLabel">Sellerise</h5>
+				  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					<span aria-hidden="true">&times;</span>
+				  </button>
+				</div>
+				<div class="modal-body">
+					<ol>
+						<li>Go to <a href="https://sellerise.com/" target="_blank">https://sellerise.com/</a></li>
+						<li>Click "Try our demo"</li>
+						<li>Go to <a href="https://sellerise.com/reviews" target="_blank">https://sellerise.com/reviews</a></li>
+						<li>Go to <a href="https://sellerise.com/rotator" target="_blank">https://sellerise.com/rotator</a> (maybe, not working yet)</li>
+					</ol>
+				</div>
+				<div class="modal-footer">
+				  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+				</div>
+			  </div>
+			</div>
+		  </div>
 		<div id="skills" class="skills">
 		    <div class="wr">
 		        <div class="skills__content">
@@ -301,6 +294,8 @@
 	<script src="https://code.jquery.com/jquery-3.4.0.min.js"
 	  integrity="sha256-BJeo0qm959uMBGb65z40ejJYGSgR7REI4+CW1fNKwOg=" crossorigin="anonymous"></script>
 	<script src="js/wow/wow.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
 	<script src="js/main.js"></script>
 
 

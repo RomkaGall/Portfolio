@@ -130,7 +130,6 @@ $(document).ready(function () {
 
       round.each(function (indexRound) {
         var delay = indexRound / 3 + 's';
-        console.log(delay)
         $(this).attr('data-wow-delay', delay)
       })
     })
